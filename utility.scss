@@ -1,0 +1,452 @@
+//img
+.img_cover{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img_contain{
+    width: 100%; 
+    height: 100%;
+    object-fit: contain;
+}
+
+
+//font weight 
+.font_weight_200 {
+  font-weight: 200;
+}
+.font_weight_300 {
+  font-weight: 300;
+}
+.font_weight_400 {
+  font-weight: 400;
+}
+.font_weight_500 {
+  font-weight: 500;
+}
+.font_weight_600 {
+  font-weight: 600;
+}
+.font_weight_700 {
+  font-weight: 700;
+}
+.font_weight_800 {
+  font-weight: 800;
+}
+.font_weight_900 {
+  font-weight: 900;
+}
+
+
+// font size
+.font_70{
+  font-size: clamp(26px, 2.08vw, 70px);
+}
+.font_64{
+  font-size: clamp(26px, 2.08vw, 64px);
+}
+.font_48{
+  font-size: clamp(26px, 2.08vw, 48px);
+}
+.font_44 {
+  font-size: clamp(24px, 2.08vw, 44px);
+}
+.font_12 {
+  font-size: clamp(10px, 1vw, 12px);
+}
+
+.font_13 {
+  font-size: clamp(11px, 1.1vw, 13px);
+}
+
+.font_14 {
+  font-size: clamp(12px, 1.2vw, 14px);
+}
+
+.font_15 {
+  font-size: clamp(13px, 1.3vw, 15px);
+}
+
+.font_16 {
+  font-size: clamp(14px, 1.4vw, 16px);
+}
+
+.font_17 {
+  font-size: clamp(15px, 1.5vw, 17px);
+}
+
+.font_18 {
+  font-size: clamp(16px, 1.6vw, 18px);
+}
+
+.font_19 {
+  font-size: clamp(17px, 1.7vw, 19px);
+}
+
+.font_20 {
+  font-size: clamp(18px, 1.8vw, 20px);
+}
+
+.font_21 {
+  font-size: clamp(19px, 1.9vw, 21px);
+}
+
+.font_22 {
+  font-size: clamp(20px, 2vw, 22px);
+}
+
+.font_23 {
+  font-size: clamp(21px, 2.1vw, 23px);
+}
+
+.font_24 {
+  font-size: clamp(22px, 2.2vw, 24px);
+}
+
+.font_25 {
+  font-size: clamp(23px, 2.3vw, 25px);
+}
+
+.font_26 {
+  font-size: clamp(24px, 2.4vw, 26px);
+}
+
+.font_27 {
+  font-size: clamp(25px, 2.5vw, 27px);
+}
+
+.font_28 {
+  font-size: clamp(26px, 2.6vw, 28px);
+}
+
+.font_29 {
+  font-size: clamp(27px, 2.7vw, 29px);
+}
+
+.font_30 {
+  font-size: clamp(28px, 2.8vw, 30px);
+}
+
+.font_31 {
+  font-size: clamp(29px, 2.9vw, 31px);
+}
+
+.font_32 {
+  font-size: clamp(30px, 3vw, 32px);
+}
+
+.font_33 {
+  font-size: clamp(31px, 3.1vw, 33px);
+}
+
+.font_34 {
+  font-size: clamp(32px, 3.2vw, 34px);
+}
+
+.font_35 {
+  font-size: clamp(33px, 3.3vw, 35px);
+}
+
+.font_36 {
+  font-size: clamp(34px, 3.4vw, 36px);
+}
+
+.font_37 {
+  font-size: clamp(35px, 3.5vw, 37px);
+}
+
+.font_38 {
+  font-size: clamp(36px, 3.6vw, 38px);
+}
+
+.font_39 {
+  font-size: clamp(37px, 3.7vw, 39px);
+}
+
+.font_40 {
+  font-size: clamp(38px, 3.8vw, 40px);
+}
+
+// .font_34 {
+//   font-size: clamp(22px, 1.66vw, 34px);
+// }
+// .font_30 {
+//   font-size: clamp(20px, 1.45vw, 30px);
+// }
+// .font_26 {
+//   font-size: clamp(19px, 1.25vw, 26px);
+// }
+// .font_22 {
+//   font-size: clamp(18px, 1.04vw, 22px);
+// }
+// .font_20 {
+//   font-size: clamp(16px, 0.93vw, 20px);
+// }
+// .font_17 {
+//   font-size: clamp(15px, 0.83vw, 17px);
+// }
+// .font_16 {
+//   font-size: clamp(14px, 0.73vw, 16px);
+// }
+// .font_15 {
+//   font-size: clamp(13px, 0.63vw, 15px);
+// }
+// .font_14 {
+//   font-size: clamp(12px, 0.63vw, 14px);
+// }
+// .font_13 {
+//   font-size: clamp(11px, 0.63vw, 13px);
+// }
+
+
+//line height
+.line_height_even {
+  line-height: 1;
+}
+.line_height_spacious {
+  line-height: 1.2;
+}
+.line_height_extra_spacious {
+  line-height: 1.5;
+}
+.line_height_enlarged {
+  line-height: 2;
+}
+
+//flex
+
+
+.space_between{
+  justify-content: space-between !important;
+}
+
+.justify_center{
+  justify-content: center;
+}
+
+.justify_end{
+  justify-content: end;
+}
+
+.align_center{
+  align-items: center;
+}
+
+.align_baseline{
+  align-items: baseline;
+}
+
+.align_end{
+  align-items: flex-end;
+}
+
+.row_reverse{
+  flex-direction: row-reverse;
+}
+
+.flex_wrap{
+  flex-wrap: wrap;
+}
+
+.flex_col{
+  flex-direction: column;
+}
+
+//text alignment
+.text_align_left {
+  text-align: left;
+}
+.text_align_right {
+  text-align: right;
+}
+.text_align_center {
+  text-align: center;
+}
+
+//positions
+.position_absolute {
+  position: absolute;
+}
+.position_relative {
+  position: relative;
+}
+
+//padding- margin utils
+.zero_margin {
+  margin: 0 !important;
+}
+.zero_padding {
+  padding: 0 !important;
+}
+.zero_margin_bottom {
+  margin-bottom: 0 !important;
+}
+.zero_margin_left {
+  margin-left: 0 !important;
+}
+.zero_padding_bottom {
+  padding-bottom: 0 !important;
+}
+.zero_padding_left {
+  padding-left: 0 !important;
+}
+.margin_left_one_rem {
+  margin: 0 0 0 1rem;
+}
+.margin_right_one_rem {
+  margin: 0 1rem 0 0;
+}
+.padding_left_one_rem {
+  padding: 0 0 0 1rem;
+}
+.padding_right_one_rem {
+  padding: 0 1rem 0 0;
+}
+
+//
+.width_100{
+    width: 100%;
+}
+
+.height_100{
+  height: 100%;
+}
+
+.height_100vh{
+  height: 100vh;
+}
+
+.width_max_content{
+  width: max-content !important;
+}
+
+
+//cursor
+.cursor_pointer{
+  cursor: pointer !important;
+}
+
+// text - tranform / decoration
+.uppercase{
+  text-transform: uppercase;
+}
+.underline{
+  text-decoration: underline;
+}
+
+// 
+.default_section_padding{
+  padding: 25px 0px;
+}
+
+.default_section_padding_50{
+  padding: 50px 0px;
+}
+
+.default_section_padding_100{
+  padding: 100px 0px;
+}
+
+//remove default
+.remove_default{
+  all: unset;
+}
+
+//border radius
+.br_5{
+  border-radius: 5px;
+}
+
+.br_10{
+  border-radius: 10px;
+}
+
+.br_15{
+  border-radius: 15px;
+}
+
+.br_20{
+  border-radius: 20px;
+}
+
+.br_30{
+  border-radius: 30px;
+}
+
+.br_40{
+  border-radius: 40px;
+}
+
+//padding or margin
+.pl_15{
+  padding-left: 15px;
+}
+
+.pl_20{
+  padding-left: 20px;
+}
+
+
+.ml_50{
+  margin-left: 50px;
+}
+
+.ml_80{
+  margin-left: 80px;
+}
+
+
+.mt_10{
+  margin-top: 10px !important;
+}
+
+.mtn_10{
+  margin-top: -10px  !important;
+}
+
+.mt_20{
+  margin-top: 20px !important;
+}
+
+.mtn_20{
+  margin-top: -20px  !important;
+}
+
+.mt_30{
+  margin-top: 30px !important;
+}
+
+.mt_35{
+  margin-top: 35px !important;
+}
+
+.mtn_100{
+  margin-top: -100px  !important;
+}
+
+.mtn_40{
+  margin-top: -40px  !important;
+}
+
+//
+.overflow{
+  overflow: hidden;
+}
+
+//
+.display_mobile{
+  display: none !important;
+}
+
+
+
+@media(max-width:600px){
+  .display_mobile{
+    display: block !important;
+  }
+
+  .display_desktop{
+    display: none !important;
+  }
+}
