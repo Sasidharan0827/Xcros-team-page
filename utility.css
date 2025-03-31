@@ -52,6 +52,9 @@
 .font_44 {
   font-size: clamp(24px, 2.08vw, 44px);
 }
+.font_10 {
+  font-size: clamp(8px, 0.9vw, 11px);
+}
 .font_12 {
   font-size: clamp(10px, 1vw, 12px);
 }
@@ -316,7 +319,9 @@
 .height_100vh{
   height: 100vh;
 }
-
+.height_20vh{
+  height: 20vh;
+}
 .width_max_content{
   width: max-content !important;
 }
