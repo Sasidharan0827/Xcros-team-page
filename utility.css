@@ -1,4 +1,4 @@
-//img
+/* //img */
 .img_cover{
     width: 100%;
     height: 100%;
@@ -12,7 +12,7 @@
 }
 
 
-//font weight 
+/* //font weight  */
 .font_weight_200 {
   font-weight: 200;
 }
@@ -39,7 +39,7 @@
 }
 
 
-// font size
+/* // font size */
 .font_70{
   font-size: clamp(26px, 2.08vw, 70px);
 }
@@ -168,7 +168,7 @@
   font-size: clamp(38px, 3.8vw, 40px);
 }
 
-// .font_34 {
+/* // .font_34 {
 //   font-size: clamp(22px, 1.66vw, 34px);
 // }
 // .font_30 {
@@ -197,10 +197,10 @@
 // }
 // .font_13 {
 //   font-size: clamp(11px, 0.63vw, 13px);
-// }
+// } */
 
 
-//line height
+/* //line height */
 .line_height_even {
   line-height: 1;
 }
@@ -214,7 +214,7 @@
   line-height: 2;
 }
 
-//flex
+/* //flex */
 
 
 .space_between{
@@ -253,7 +253,7 @@
   flex-direction: column;
 }
 
-//text alignment
+/* //text alignment */
 .text_align_left {
   text-align: left;
 }
@@ -264,7 +264,7 @@
   text-align: center;
 }
 
-//positions
+/* //positions */
 .position_absolute {
   position: absolute;
 }
@@ -272,7 +272,7 @@
   position: relative;
 }
 
-//padding- margin utils
+/* //padding- margin utils */
 .zero_margin {
   margin: 0 !important;
 }
@@ -304,7 +304,7 @@
   padding: 0 1rem 0 0;
 }
 
-//
+/* // */
 .width_100{
     width: 100%;
 }
@@ -322,12 +322,12 @@
 }
 
 
-//cursor
+/* //cursor */
 .cursor_pointer{
   cursor: pointer !important;
 }
 
-// text - tranform / decoration
+/* // text - tranform / decoration */
 .uppercase{
   text-transform: uppercase;
 }
@@ -335,7 +335,7 @@
   text-decoration: underline;
 }
 
-// 
+/* //  */
 .default_section_padding{
   padding: 25px 0px;
 }
@@ -348,12 +348,12 @@
   padding: 100px 0px;
 }
 
-//remove default
+/* //remove default */
 .remove_default{
   all: unset;
 }
 
-//border radius
+/* //border radius */
 .br_5{
   border-radius: 5px;
 }
@@ -378,7 +378,7 @@
   border-radius: 40px;
 }
 
-//padding or margin
+/* //padding or margin */
 .pl_15{
   padding-left: 15px;
 }
@@ -429,12 +429,12 @@
   margin-top: -40px  !important;
 }
 
-//
+/* // */
 .overflow{
   overflow: hidden;
 }
 
-//
+/* // */
 .display_mobile{
   display: none !important;
 }
