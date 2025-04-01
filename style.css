@@ -85,6 +85,26 @@
   width: 355px;
   height: 326px;
 }
+.background_color_full {
+  background-color: #eeeeee !important;
+}
+.container_customize {
+  width: 90%;
+}
+.background_color_dark_blue {
+  background-color: #1a29fb !important;
+}
+.background_color_dark_red {
+  background-color: #ff0040 !important;
+}
+.background_image {
+  background-image: url(assets/user_review_image.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 285px;
+}
 .background_color_dark_gray {
   background-color: #d9d9d9 !important;
 }
@@ -95,5 +115,11 @@
 .nav-pills {
   --bs-nav-pills-border-radius: var(--bs-border-radius);
   --bs-nav-pills-link-active-color: #fff;
+  --bs-nav-pills-link-active-color: #ffffff !important;
   --bs-nav-pills-link-active-bg: #000000 !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: white !important;
 }
