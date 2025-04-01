@@ -65,7 +65,8 @@
 }
 
 .rating>input {
-    display: none
+    display: none ;
+
 }
 
 .rating>label {
