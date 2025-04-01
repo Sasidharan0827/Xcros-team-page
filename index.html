@@ -18,12 +18,10 @@
       <div class="menu_bar background_color_white p-4">
         <div class="container d-flex gap-3 align-items-center">
           <p
-            class="m-0 p-0 font_weight_500 font_14 d-flex gap-3 align-items-center"
+            class="m-0 p-0 font_weight_500 font_14 d-flex align-items-center gap-3"
           >
-            <a href="" class="text_decoration_remover font_color_black"
-              >Home
-            </a>
-            <i class="fa-solid fa-chevron-right font_12"></i>
+            <a href="" class="text_decoration_remover font_color_black">Home </a
+            ><i class="fa-solid fa-chevron-right font_12"></i>
           </p>
           <p
             class="m-0 p-0 font_weight_500 font_14 d-flex align-items-center gap-3"
@@ -41,6 +39,7 @@
       </div>
       <div class="container mt-3 mb-3">
         <div class="main_image_warpper br_20">
+          <!-- <img src="./assets/main_banner.png" class="img_cover" alt="" /> -->
           <div class="image_filter br_20"></div>
 
           <div
@@ -64,11 +63,9 @@
                 <p class="m-0 p-0 font_color_white font_weight_500 font_12">
                   Pune | Maharashtra
                 </p>
-                <hr
-                  class="hr_line font_color_white mt-2 mb-2 d-flex align-items-center"
-                />
+                <hr class="hr_line font_color_white p-0 mt-2 mb-2" />
                 <div class="d-flex justify-content-between">
-                  <div class="m-0 p-0 d-flex align-items-center gap-2">
+                  <div class="d-flex align-items-center gap-2 m-0 p-0">
                     <div
                       class="last_seen_image_wrapper background_color_white rounded-circle p-2 d-flex align-items-center justify-content-center"
                     >
@@ -78,13 +75,10 @@
                         alt=""
                       />
                     </div>
-                    <p
-                      class="m-0 p-0 d-flex justify-content-center align-items-center font_color_white font_weight_500 font_14"
-                    >
+                    <p class="font_weight_500 font_14 m-0 p-0 font_color_white">
                       Last active : 5 Days ago
                     </p>
                   </div>
-
                   <div class="profile_image_wrapper">
                     <img
                       src="./assets/user_icon.png"
@@ -99,8 +93,8 @@
         </div>
       </div>
       <!-- ---------------------------------------------------- -->
-      <div class="container">
-        <div class="row m-0 pb-4">
+      <div class="container default_section_padding">
+        <div class="row m-0 p-0">
           <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 mt-2">
             <div
               class="view_box background_color_white d-flex align-items-center gap-3 p-3 br_5"
@@ -203,109 +197,127 @@
       class="background_color_full d-flex justify-content-center align-items-center"
     >
       <div class="container_customize">
-        <div class="row gap-4">
-          <!-- First column: Agent Contacts -->
-          <div class="col-lg-3 col-md-12 col-12 bg-white p-4 br_15 h-75">
-            <h3 class="font_20 ps-4">Agent contacts</h3>
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item border-0 border-bottom border-top">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button bg-white shadow-none"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne"
-                  >
-                    <i class="fa-solid fa-location-dot ps-1"></i>
-                    <span class="text-dark fw-bold font_16 ms-2"
-                      >Location :</span
+        <div class="row m-0 p-0">
+          <div class="col-xl-3 col-lg-6 col-md-12 col-sm-12">
+            <div class="bg-white br_15 p-2">
+              <h3
+                class="font_20 font_weight_500 d-flex justify-content-center align-items-center p-3"
+              >
+                Agent contacts
+              </h3>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item border-0 border-bottom border-top">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button bg-white shadow-none d-flex justify-content-center align-items-center gap-2"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
                     >
-                  </button>
-                </h2>
-                <div
-                  id="collapseOne"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="accordion-body d-flex font_14">
-                    <p>
-                      Centriole Building, Plot No 90, Survey #129, 130/1+2, ITI
-                      Rd, Aundh, Pune, Maharashtra 411027, India
-                    </p>
+                      <i class="fa-solid fa-location-dot font_16"></i>
+                      <span class="text-dark font_weight_500 font_16"
+                        >Location :</span
+                      >
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body d-flex font_14">
+                      <p>
+                        Centriole Building, Plot No 90, Survey #129, 130/1+2,
+                        ITI Rd, Aundh, Pune, Maharashtra 411027, India
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="py-3 ps-4 border-bottom">
-              <i class="fa-solid fa-phone"></i>
-              <span class="text-dark fw-bold">Phone :</span>
-              <span class="text-dark font_14">+91 8899005643</span>
-            </div>
-            <div class="py-3 ps-4 border-bottom">
-              <i class="fa-solid fa-envelope text-dark"></i>
-              <span class="text-dark fw-bold ms-1">Email :</span>
-              <span class="text-dark font_14">test@gmail.com</span>
-            </div>
-            <div class="accordion" id="accordionExample1">
-              <div class="accordion-item border-0 border-bottom">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button bg-white shadow-none"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne1"
-                  >
-                    <img src="assets/contact.png" alt="" class="img-fluid" />
-                    <span class="text-dark fw-bold ms-2">Socials :</span>
-                  </button>
-                </h2>
-                <div
-                  id="collapseOne1"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#accordionExample1"
+              <div
+                class="d-flex gap-2 mt-4 mb-3 justify-content-start align-items-center border-bottom ms-3"
+              >
+                <i class="fa-solid fa-phone fs-5 font_16 mb-3"></i>
+                <span class="text-dark font_weight_500 font_16 mb-3"
+                  >Phone :</span
                 >
-                  <div class="accordion-body d-flex gap-4">
-                    <i class="fs-5 fa-brands fa-facebook"></i>
-                    <i class="fs-5 fa-brands fa-square-twitter"></i>
-                    <i class="fs-5 fa-brands fa-square-instagram"></i>
-                    <i class="fs-5 fa-brands fa-pinterest"></i>
-                    <i class="fs-5 fa-brands fa-linkedin"></i>
-                    <i class="fs-5 fa-brands fa-youtube"></i>
+                <span class="text-dark font_weight_500 font_16 mb-3"
+                  >+91 8899005643</span
+                >
+              </div>
+              <div class="d-flex gap-2 mt-4 ps-4 border-bottom">
+                <i class="fa-solid fa-envelope text-dark fs-5 font_16"></i>
+                <span class="text-dark mb-3 font_16 font_weight_500"
+                  >Email :</span
+                >
+                <span class="text-dark font_16 font_weight_500"
+                  >test@gmail.com</span
+                >
+              </div>
+              <div class="accordion" id="accordionExample1">
+                <div class="accordion-item border-0 border-bottom">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button bg-white shadow-none"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne1"
+                    >
+                      <img src="assets/contact.png" alt="" class="img-fluid" />
+                      <span class="text-dark font_weight_500 font_16 ms-2 mb-3"
+                        >Socials :</span
+                      >
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne1"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample1"
+                  >
+                    <div class="accordion-body d-flex gap-4">
+                      <i class="fs-1 fa-brands fa-facebook"></i>
+                      <i class="fs-1 fa-brands fa-square-twitter"></i>
+                      <i class="fs-1 fa-brands fa-square-instagram"></i>
+                      <i class="fs-1 fa-brands fa-pinterest"></i>
+                      <i class="fs-1 fa-brands fa-linkedin"></i>
+                      <i class="fs-1 fa-brands fa-youtube"></i>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="accordion" id="accordionExample2">
-              <div class="accordion-item border-0">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button bg-white shadow-none"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne2"
+              <div class="accordion" id="accordionExample2">
+                <div class="accordion-item border-0">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button bg-white shadow-none"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne2"
+                    >
+                      <i class="fa-solid fa-comment fs-5 text-dark"></i>
+                      <span class="text-dark font_weight_500 font_16 ms-2"
+                        >Chat :</span
+                      >
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne2"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample2"
                   >
-                    <i class="fa-solid fa-comment text-dark"></i>
-                    <span class="text-dark fw-bold ms-2">Chat :</span>
-                  </button>
-                </h2>
-                <div
-                  id="collapseOne2"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#accordionExample2"
-                >
-                  <div class="accordion-body d-flex gap-4">
-                    <span>Skype</span>
-                    <span>Whatsapp</span>
-                    <span>On Site</span>
+                    <div class="accordion-body d-flex gap-4">
+                      <span>Skype</span>
+                      <span>Whatsapp</span>
+                      <span>On Site</span>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <!-- Second column: About Agent -->
-          <div class="col-lg-5 col-md-12 col-12 bg-white p-4 br_15 about mb-2">
+          <div class="col-xl-5 col-lg-6 bg-white p-2 br_15 about">
             <div class="d-flex justify-content-between border-bottom border-2">
-              <h2 class="mb-3 font_20">About Agent</h2>
+              <h2 class="mb-3 font_weight_500 font_20">About Agent</h2>
               <div class="dropdown">
                 <button
                   class="btn border-0"
@@ -320,11 +332,11 @@
                   </li>
                   <li>
                     <a class="dropdown-item border-bottom" href="#"
-                      >Education</a
-                    >
+                      >Education
+                    </a>
                   </li>
                   <li>
-                    <a class="dropdown-item border-bottom" href="#">Skills</a>
+                    <a class="dropdown-item border-bottom" href="#"> Skills</a>
                   </li>
                   <li>
                     <a class="dropdown-item border-bottom" href="#"
@@ -333,10 +345,10 @@
                   </li>
                   <li>
                     <a class="dropdown-item border-bottom" href="#"
-                      >Awards and Certificates</a
-                    >
+                      >Awards and Certificates
+                    </a>
                   </li>
-                  <li><a class="dropdown-item" href="#">Gallery</a></li>
+                  <li><a class="dropdown-item" href="#"> Gallery</a></li>
                 </ul>
               </div>
             </div>
@@ -361,23 +373,28 @@
                 ac nunc. Mauris non ligula suscipit, vulputate mi accumsan,
                 dapibus felis. Nullam sed sapien dui. Nulla auctor sit amet sem
                 non porta. Integer iaculis tellus nulla, quis imperdiet magna
+                venenatis vitae.. Eu ius postulant salutatus definitionem,
+                explicari. Graeci viderer qui ut, at habeo facer solet usu. Pri
+                choro pertinax indoctum ne, ad partiendo persecuti forensibus
+                est.
               </p>
             </div>
-            <div>
+            <div class="">
               <p class="text-body-tertiary font_14">
                 Ut nec hinc dolor possim. An eros argumentum vel, elit diceret
                 duo eu, quo et aliquid ornatus delicatissimi. Cu nam tale ferri
                 utroque, eu habemus albucius mel, cu vidit possit ornatus eum.
                 Eu ius postulant salutatus definitionem, explicari. Graeci
+                viderer qui ut, at habeo facer solet usu. Pri choro pertinax
+                indoctum ne, ad partiendo persecuti forensibus est. Eu ius
+                postulant salutatus definitionem, explicari. Graeci viderer qui
+                ut, at habeo facer solet usu. Pri choro pertinax indoctum ne, ad
                 partiendo persecuti forensibus est.
               </p>
             </div>
           </div>
-          <!-- Third column: Image -->
-          <div class="col-lg-3 col-md-12 col-12 d-flex justify-content-center">
-            <div>
-              <img src="assets/image (2).png" alt="" class="img-fluid mb-5" />
-            </div>
+          <div class="col-xl-3">
+            <img src="assets/image (2).png" alt="" class="img-fluid mb-5" />
           </div>
         </div>
       </div>
@@ -412,70 +429,40 @@
               <span class="font_16 ms-2">Area 1</span>
               <span class="font_16 ms-2">Area 1</span>
             </div>
-            <div class="bg-white br_15 mb-4">
+            <div class="bg-white">
               <h4 class="ps-3 pt-3 font_20 fw-bold">Get in touch</h4>
               <div class="p-3 border-top border-2">
-                <div
-                  class="d-flex align-items-center background_color_dark_lable"
-                >
-                  <div
-                    class="icon_box justify-content-center align-items-center d-flex ps-3 background_color_dark_lable"
-                  >
-                    <i class="fa-regular fa-user icon"></i>
-                  </div>
-                  <input
-                    type="email"
-                    class="form-control background_color_dark_lable my-2 pe-5 py-2 border-0 shadow-none"
-                    id="exampleFormControlInput1"
-                    placeholder="*Name"
-                  />
-                </div>
-                <div
-                  class="d-flex align-items-center background_color_dark_lable mt-2"
-                >
-                  <div
-                    class="icon_box justify-content-center align-items-center d-flex ps-3 background_color_dark_lable"
-                  >
-                    <i class="fa-regular fa-envelope"></i>
-                  </div>
-
-                  <input
-                    type="email"
-                    class="form-control background_color_dark_lable my-2 pe-5 py-2 border-0 shadow-none"
-                    id="exampleFormControlInput1"
-                    placeholder="*Email"
-                  />
-                </div>
-
-                <div
-                  class="d-flex align-items-center background_color_dark_lable mt-2"
-                >
-                  <div
-                    class="icon_box justify-content-center align-items-center d-flex ps-3 background_color_dark_lable"
-                  >
-                    <i class="fa-solid fa-phone"></i>
-                  </div>
-                  <input
-                    type="email"
-                    class="form-control background_color_dark_lable my-2 pe-5 py-2 border-0 shadow-none"
-                    id="exampleFormControlInput1"
-                    placeholder="*Phone"
-                  />
-                </div>
-
+                <input
+                  type="email"
+                  class="form-control background_color_dark_lable my-2 pe-5 py-3 border-0 shadow-none"
+                  id="exampleFormControlInput1"
+                  placeholder="*Name"
+                />
+                <input
+                  type="email"
+                  class="form-control background_color_dark_lable my-2 pe-5 py-3 border-0 shadow-none"
+                  id="exampleFormControlInput1"
+                  placeholder="*Email"
+                />
+                <input
+                  type="email"
+                  class="form-control background_color_dark_lable my-2 pe-5 py-3 border-0 shadow-none"
+                  id="exampleFormControlInput1"
+                  placeholder="*Phone"
+                />
                 <textarea
-                  class="form-control background_color_dark_lable mt-1 pb-5 border-0 shadow-none"
+                  class="form-control background_color_dark_lable my-2 pb-5 border-0 shadow-none"
                   id="exampleFormControlTextarea1"
                   placeholder="*Message"
                   rows="3"
                 ></textarea>
               </div>
               <div class="p-3">
-                <span class="btn bg-dark text-white px-5 py-2"
+                <span class="btn bg-dark text-white px-5 py-3 my-2"
                   >Send Message</span
                 >
-                <span class="btn bg-dark text-white px-3 py-2 my-2"
-                  ><i class="fa-solid fa-greater-than font_12"></i
+                <span class="btn bg-dark text-white px-4 py-3 my-2"
+                  ><i class="fa-solid fa-greater-than"></i
                 ></span>
               </div>
             </div>
@@ -483,17 +470,17 @@
           <div class="col-xl-5 col-sm-12 mt-4">
             <div class="row">
               <ul
-                class="nav nav-pills border-0 w-100 d-flex flex-wrap gap-5 justify-content-center"
+                class="nav nav-pills border-0 w-100 d-flex flex-wrap gap-5"
                 id="stepTab"
                 role="tablist"
               >
-                <div class="col-xl-2 col-lg-5 col-md-5 col-5">
+                <div class="col-xl-2 col-lg-4 col-md-5 col-5">
                   <li
                     class="nav-item background_color_dark_gray"
                     role="presentation"
                   >
                     <button
-                      class="nav-link active text-dark font_14 py-3 br_10 w-100"
+                      class="nav-link active text-white font_14 py-3 br_10 w-100"
                       id="1step-tab"
                       data-bs-toggle="tab"
                       data-bs-target="#1step"
@@ -502,13 +489,13 @@
                     </button>
                   </li>
                 </div>
-                <div class="col-xl-3 col-lg-5 col-md-5 col-5">
+                <div class="col-xl-3 col-lg-6 col-md-5 col-5">
                   <li
                     class="nav-item background_color_dark_gray"
                     role="presentation"
                   >
                     <button
-                      class="nav-link text-dark font_14 py-3 px-2 br_10 w-100"
+                      class="nav-link text-white font_14 py-3 px-2 br_10 w-100"
                       id="2step-tab"
                       data-bs-toggle="tab"
                       data-bs-target="#2step"
@@ -517,13 +504,13 @@
                     </button>
                   </li>
                 </div>
-                <div class="col-xl-2 col-lg-5 col-md-5 col-5">
+                <div class="col-xl-2 col-lg-6 col-md-5 col-5">
                   <li
                     class="nav-item background_color_dark_gray"
                     role="presentation"
                   >
                     <button
-                      class="nav-link text-dark font_14 py-3 px-2 br_10 w-100"
+                      class="nav-link text-white font_14 py-3 px-2 br_10 w-100"
                       id="3step-tab"
                       data-bs-toggle="tab"
                       data-bs-target="#3step"
@@ -538,64 +525,43 @@
                     role="presentation"
                   >
                     <button
-                      class="nav-link text-dark font_14 py-3 px-2 br_10 w-100"
+                      class="nav-link text-white font_14 py-3 px-2 br_10 w-100"
                       id="4step-tab"
                       data-bs-toggle="tab"
                       data-bs-target="#4step"
                     >
-                      More
+                      More <i class="fa-solid fa-greater-than"></i>
                     </button>
                   </li>
                 </div>
               </ul>
 
-              <div class="tab-content bg-white mt-3 br_15" id="stepTabContent">
+              <div
+                class="tab-content bg-white mt-3 p-3 br_15"
+                id="stepTabContent"
+              >
                 <div class="tab-pane fade show active" id="1step">
-                  <div
-                    class="d-flex flex-wrap align-items-center justify-content-between text-center pt-3"
-                  >
-                    <div class="d-flex flex-wrap gap-3 align-items-center">
+                  <div class="d-flex flex-wrap justify-content-between mt-3">
+                    <div
+                      class="d-flex gap-3 align-items-center justify-content-center"
+                    >
                       <h4 class="font_20">Reviews 1</h4>
-                      <div
-                        class="background_color_full br_10 py-2 px-2 mb-2 d-flex align-items-center flex-wrap"
-                      >
-                        <span class="bg-dark text-white font_12 p-2 br_5"
+                      <div class="background_color_full br_10 p-2">
+                        <span class="bg-dark text-white font_20 p-1 br_5"
                           >5.0</span
                         >
-                        <div class="d-flex align-items-center ms-2">
-                          <img
-                            src="assets/review_ratings.png"
-                            alt="Rating"
-                            class="img-fluid ps-1"
-                          />
-                          <img
-                            src="assets/review_ratings.png"
-                            alt="Rating"
-                            class="img-fluid ps-1"
-                          />
-                          <img
-                            src="assets/review_ratings.png"
-                            alt="Rating"
-                            class="img-fluid ps-1"
-                          />
-                          <img
-                            src="assets/review_ratings.png"
-                            alt="Rating"
-                            class="img-fluid ps-1"
-                          />
-                          <img
-                            src="assets/review_ratings.png"
-                            alt="Rating"
-                            class="img-fluid ps-1"
-                          />
-                        </div>
+                        <img src="assets/review_ratings.png" alt="" />
+                        <img src="assets/review_ratings.png" alt="" />
+                        <img src="assets/review_ratings.png" alt="" />
+                        <img src="assets/review_ratings.png" alt="" />
+                        <img src="assets/review_ratings.png" alt="" />
                         <span class="font_weight_600 ms-3 font_12"
                           >Excellent</span
                         >
                       </div>
                     </div>
-                    <div class="">
-                      <button class="btn btn-dark br_15 px-5 py-2 font_16">
+                    <div class="d-flex justify-content-sm-center">
+                      <button class="btn btn-dark br_15 px-3 py-2 font_16">
                         Add Your Review
                       </button>
                     </div>
@@ -607,7 +573,7 @@
                         <img src="assets/image.png" class="img-fluid" alt="" />
                       </div>
                       <div
-                        class="col-md-10 col-10 text-wrap background_color_full p-3 br_10"
+                        class="col-md-10 col-10 text-wrap background_color_full p-2 br_10"
                       >
                         <div>
                           <div
@@ -635,7 +601,7 @@
                             </div>
                           </div>
                           <p
-                            class="border-bottom border-2 text-body-tertiary mt-3 mb-3 pb-3 font_12"
+                            class="border-bottom text-body-tertiary mt-3 mb-3 pb-3 font_12"
                           >
                             " Donec quam felis, ultricies nec, pellentesque eu,
                             pretium quis, sem. Nulla consequat massa quis enim.
@@ -644,20 +610,18 @@
                             imperdiet a, venenatis vitae, justo. Nullam dictum
                             felis eu pede mollis pretium. "
                           </p>
-                          <div
-                            class="d-flex justify-content-between flex-wrap p-2"
-                          >
+                          <div class="d-flex justify-content-between flex-wrap">
                             <div>
                               <i class="fa-solid fa-calendar-days"></i>
                               <span class="font_weight_600 font_10"
                                 >12 February 2025</span
                               >
                               <span
-                                class="ms-2 px-3 py-1 br_5 text-white font_12 background_color_dark_blue"
+                                class="ms-2 px-3 py-1 br_10 text-white font_12 background_color_dark_blue"
                                 >Edit</span
                               >
                               <span
-                                class="ms-2 px-3 py-1 br_5 text-white font_12 background_color_dark_red"
+                                class="ms-2 px-3 py-1 br_10 text-white font_12 background_color_dark_red"
                                 >Remove</span
                               >
                             </div>
@@ -705,32 +669,18 @@
                         </div>
 
                         <div class="d-flex gap-5 flex-md-row flex-sm-column">
-                          <div
-                            class="mb-3 icon_target d-flex align-items-center background_color_dark_lable"
-                          >
-                            <div
-                              class="icon_box justify-content-center align-items-center d-flex ps-3"
-                            >
-                              <i class="fa-regular fa-user icon"></i>
-                            </div>
+                          <div class="mb-3">
                             <input
-                              type="text"
-                              class="form-control background_color_dark_lable ps-4 pe-5 py-3 border-0 shadow-none"
+                              type="email"
+                              class="form-control background_color_dark_lable w-100 pe-5 py-3 border-0 shadow-none"
                               id="exampleFormControlInput1"
                               placeholder="*Name"
                             />
                           </div>
-                          <div
-                            class="mb-3 icon_target d-flex align-items-center background_color_dark_lable"
-                          >
-                            <div
-                              class="icon_box justify-content-center align-items-center d-flex ps-3"
-                            >
-                              <i class="fa-regular fa-envelope"></i>
-                            </div>
+                          <div class="mb-3">
                             <input
                               type="email"
-                              class="form-control background_color_dark_lable pe-5 py-3 border-0 shadow-none"
+                              class="form-control background_color_dark_lable w-100 pe-5 py-3 border-0 shadow-none"
                               id="exampleFormControlInput1"
                               placeholder="*Email"
                             />
@@ -744,9 +694,7 @@
                             rows="3"
                           ></textarea>
                         </div>
-                        <button
-                          class="btn bg-dark text-white font_12 px-5 py-2"
-                        >
+                        <button class="btn bg-dark text-white px-5 py-3">
                           Submit Review
                         </button>
                       </div>
@@ -755,9 +703,9 @@
                 </div>
 
                 <div class="tab-pane fade" id="2step">
-                  <div class="row gap-4 justify-content-center">
+                  <div class="row gap-5 justify-content-center">
                     <div
-                      class="col-lg-5 col-md-5 col-12 background_image d-flex align-items-end mt-3"
+                      class="col-lg-5 col-md-5 col-12 background_image d-flex align-items-end"
                     >
                       <div class="text-white">
                         <span class="fs-3">Rose Merry</span> <br />
@@ -765,7 +713,7 @@
                       </div>
                     </div>
                     <div
-                      class="col-lg-5 col-md-5 col-12 background_image d-flex align-items-end mt-3"
+                      class="col-lg-5 col-md-5 col-12 background_image d-flex align-items-end"
                     >
                       <div class="text-white">
                         <span class="fs-3">Rose Merry</span> <br />
@@ -773,7 +721,7 @@
                       </div>
                     </div>
                     <div
-                      class="col-lg-5 col-md-5 col-12 background_image d-flex align-items-end mb-3"
+                      class="col-lg-5 col-md-5 col-12 background_image d-flex align-items-end"
                     >
                       <div class="text-white">
                         <span class="fs-3">Rose Merry</span> <br />
@@ -781,7 +729,7 @@
                       </div>
                     </div>
                     <div
-                      class="col-lg-5 col-md-5 col-12 background_image d-flex align-items-end mb-3"
+                      class="col-lg-5 col-md-5 col-12 background_image d-flex align-items-end"
                     >
                       <div class="text-white">
                         <span class="fs-3">Rose Merry</span> <br />
